@@ -1,0 +1,7 @@
+dash
+pandas
+Werkzeug
+numpy
+plotly
+plotly-express
+gunicorn

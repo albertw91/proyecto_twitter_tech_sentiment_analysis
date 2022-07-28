@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+
+    dash_app:                                            # create airflow container
+        build: 
+            context: .                   # construct the container along the Dockerfile in this folder
+        image: dash_app_image
+        container_name: dash_app__container
+        restart: always
+        volumes:                                        # mount the following local folders
+            - ./app:/dash_app/app/
+            - ./data:/dash_app/data
+        ports:
+            - "0.0.0.0:8050:8050"                               # expose port
+ 
+volumes:
+    data:
