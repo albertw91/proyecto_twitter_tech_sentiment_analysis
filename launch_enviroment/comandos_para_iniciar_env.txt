@@ -1,0 +1,31 @@
+Ambos archivos .bat y .sh contienen sentencias para la creación del venv e instalación del requirements
+
+
+Para power shell:
+Start-Process .\launch_env.bat -NoNewWindow -Wait
+
+Para bash
+bash launch_env.sh
+
+Para cmd
+start .\launch_env.bat
+
+
+
+conda config --add envs_dirs /ruta/deseada/nombre_de_entorno
+conda create --name twitter_sentiment python=3.9
+conda activate twitter_sentiment
+conda install --file requirements.txt
+
+conda deactivate
+conda env remove --name twitter_sentiment
+
+en windows 
+conda env list | findstr twitter_sentiment |  cut -d' ' -f1
+conda env list | twitter_sentiment | awk '{print $2}'
+
+
+
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+python -m pip install "tensorflow==2.10"

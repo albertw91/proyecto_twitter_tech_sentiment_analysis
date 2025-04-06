@@ -3,7 +3,7 @@ Análisis de sentimiento sobre dispositivos tecnológicos usando la twitter API
 
 Introducción
 
-Este es un proyecto de redes neuronales para analisis de lenguaje antural NLP y analisis de sentimiento de texto publicado en twitter al respecto de opiniones sobre dispositivos electronicos. El proyecto se encuentra programado en python 3.8 y hace uso de la API de Twitter para extraer los datos de Twitter y de tensor flow para llevar a cabo el modelo de NLP.
+Este es un proyecto de aplicación de una red neuronal para analisis de lenguaje natural NLP en el ambito del análisis de sentimiento de texto proveniente de twitter, al respecto de opiniones sobre dispositivos electronicos. El proyecto se encuentra programado en python 3.8 y hace uso de la API de Twitter para extraer los datos de Twitter y de tensor flow para llevar a cabo el modelo de NLP.
 
 Dataset: Opiniones de twitter sobre dispositivos electronicos
 Autor: Luis Alberto Flores Rodríguez
